@@ -12,13 +12,6 @@ body {
     background-repeat: no-repeat;
 }
 
-h2 {
-    color: white;
-    font-size: xx-large;
-    font-family: math;
-    font-weight: bold;
-}
-
 .boite {
     height: 99vh;
 }
@@ -99,4 +92,10 @@ h2 {
     align-items: center;
     width: auto;
     overflow: auto;
+}
+h2 {
+    color: white;
+    font-size: xx-large;
+    font-family: math;
+    font-weight: bold;
 }
