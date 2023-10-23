@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Image/Fond1-violet.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: white;
+    font-size: xx-large;
+    font-family: math;
+    font-weight: bold;
+}
+
+.boite {
+    height: 99vh;
+}
+
+.btn {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border: 2px white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-image: url(Image/Fond2-ironman.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn1 {
+    padding: 10px;
+    margin-top: 200px;
+    width: 261px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #000000a9;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+.btn2 {
+    padding: 10px;
+    margin-top: 50px;
+    width: 261px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #000000a9;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+.img-fond {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.conteneur {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    overflow: auto;
+}
+
+.conteneur2 {
+    margin-block: auto;
+    border: 2px solid #00000000;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    overflow: auto;
+}
