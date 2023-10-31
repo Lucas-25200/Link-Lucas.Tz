@@ -1,101 +1,126 @@
 @charset "utf-8";
 
 body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(Image/Fond4.jpg);
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Image/171452-affoltern_dans_lemmental-lecoregion-paysage_naturel-environnement_naturel-highland-7680x4320.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-family: math;
+  font-weight: bold;
 }
 
 .boite {
-    height: 99vh;
+  height: 99vh;
 }
 
 .btn {
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    border: 2px white;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    background-image: url(Image/Fond2-ironman.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border: 2px white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-image: url(Image/ironman-icon1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-shadow:0px 0px 0px 3px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+  box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
 }
 
 .btn1 {
-    padding: 10px;
-    margin-top: 150px;
-    width: 261px;
-    height: 50px;
-    border: 2px solid #ffffff;
-    color: white;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: x-large;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    background: #000000a9;
-    text-decoration: none;
-    flex-wrap: nowrap;
+  padding: 10px;
+  margin-top: 100px;
+  width: 261px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #000000a9;
+  text-decoration: none;
+  flex-wrap: nowrap;
 }
 
 .btn2 {
-    padding: 10px;
-    margin-top: 50px;
-    width: 261px;
-    height: 50px;
-    border: 2px solid #ffffff;
-    color: white;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: x-large;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    background: #000000a9;
-    text-decoration: none;
-    flex-wrap: nowrap;
+  padding: 10px;
+  margin-top: 50px;
+  width: 261px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #000000a9;
+  text-decoration: none;
+  flex-wrap: nowrap;
 }
 
 .img-fond {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .conteneur {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: auto;
-    overflow: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  overflow: auto;
 }
 
 .conteneur2 {
-    margin-block: auto;
-    border: 2px solid #00000000;
-    text-align: center;
-    align-items: center;
-    width: auto;
-    overflow: auto;
+  margin-block: auto;
+  border: 2px solid #00000000;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  overflow: auto;
 }
-h2 {
-    color: white;
-    font-size: xx-large;
-    font-family: math;
-    font-weight: bold;
+
+@media (min-width: 300px) {
+  .btn {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}
+
+@media (min-width: 400px) {
+  .btn {
+    min-width: 150px;
+    min-height: 150px;
+  }
+}
+
+@media (min-width: 600px) {
+  .btn {
+    min-width: 200px;
+    min-height: 200px;
+  }
 }
