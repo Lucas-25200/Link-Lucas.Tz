@@ -20,7 +20,7 @@ h2 {
 }
 
 .boite {
-  height: 99vh;
+  height: 1048px;
 }
 
 .btn {
@@ -36,9 +36,9 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-box-shadow:0px 0px 0px 3px rgba(0,0,0,1);
-  -moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
-  box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 1);
 }
 
 .btn1 {
@@ -120,7 +120,63 @@ h2 {
 
 @media (min-width: 600px) {
   .btn {
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 200px;
+    min-height: 200px;
   }
+}
+
+
+
+
+.btn-class-name {
+  --color: 0, 0, 0;
+  border-radius: .5em;
+  transition: .3s;
+  background-color: rgba(var(--color), .2);
+  color: rgb(var(--color));
+  fill: rgb(var(--color));
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: 2px solid rgb(var(--color));
+  box-shadow: 0 0 10px rgba(var(--color), .4);
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: .5em 1em;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn-class-name:hover {
+  box-shadow: 0 0 0 5px rgba(var(--color), .5);
+}
+
+.btn-class-name span {
+  transform: scale(.8);
+  transition: .3s;
+}
+
+.btn-class-name:hover span {
+  transform: scale(1);
+}
+
+.btn-class-name svg {
+  font-size: 0;
+  transform: scale(0.5) translateX(0%) rotate(-180deg);
+  transition: .3s;
+  rotate: 180deg;
+}
+
+.btn-class-name:hover svg {
+  font-size: 20px;
+  transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.btn-class-name:active {
+  transition: 0s;
+  box-shadow: 0 0 0 5px rgb(var(--color));
 }
