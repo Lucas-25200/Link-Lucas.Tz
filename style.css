@@ -44,7 +44,7 @@ h2 {
 .btn1 {
   padding: 10px;
   margin-top: 200px;
-  width: 430px;
+  width: 300px;
   border: 2px solid #ffffff;
   color: white;
   font-family: monospace;
@@ -62,7 +62,7 @@ h2 {
 .btn2 {
   padding: 10px;
   margin-top: 20px;
-  width: 430px;
+  width: 300px;
   border: 2px solid #ffffff;
   color: white;
   font-family: monospace;
@@ -102,12 +102,7 @@ h2 {
   overflow: auto;
 }
 
-@media (min-width: 300px) {
-  .btn {
-    min-width: 50px;
-    min-height: 50px;
-  }
-}
+/*-Responsive bouton-*/
 
 @media (min-width: 400px) {
   .btn {
@@ -123,6 +118,32 @@ h2 {
   }
 }
 
+/*-Responsive bouton 1 & 2-*/
+
+@media (min-width: 400px) {
+
+  .btn1,
+  .btn2 {
+    min-width: 300px;
+
+  }
+}
+
+@media (min-width: 500px) {
+
+  .btn1,
+  .btn2 {
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .btn1,
+  .btn2 {
+    min-width: 500px;
+  }
+}
 
 .btn-class-name {
   --color: 255, 255, 255;
