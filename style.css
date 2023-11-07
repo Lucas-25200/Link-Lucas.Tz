@@ -45,7 +45,6 @@ h2 {
   padding: 10px;
   margin-top: 100px;
   width: 500px;
-  height: 40px;
   border: 2px solid #ffffff;
   color: white;
   font-family: monospace;
@@ -62,9 +61,8 @@ h2 {
 
 .btn2 {
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 500px;
-  height: 40px;
   border: 2px solid #ffffff;
   color: white;
   font-family: monospace;
