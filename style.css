@@ -103,7 +103,6 @@ h2 {
 }
 
 /*-Responsive bouton-*/
-
 @media (min-width: 400px) {
   .btn {
     min-width: 150px;
@@ -119,7 +118,6 @@ h2 {
 }
 
 /*-Responsive bouton 1 & 2-*/
-
 @media (min-width: 400px) {
 
   .btn1,
@@ -145,6 +143,30 @@ h2 {
   }
 }
 
+/*-Responsive Boite-*/
+@media (min-width: 400px) {
+  .boite{
+      min-height: 961px;
+    }
+  }
+@media (min-width: 500px) {
+.boite{
+    min-height: 961px;
+  }
+}
+
+@media (min-width: 600px) {
+.boite{
+    min-height: 969px;
+  }
+}
+
+@media (min-width: 700px) {
+  .boite{
+      min-height: 961px;
+    }
+  }
+
 .btn-class-name {
   --color: 255, 255, 255;
   border-radius: .5em;
@@ -166,10 +188,6 @@ h2 {
   padding: .5em 1em;
   margin-top: 20px;
   margin-left: 20px;
-}
-
-.btn-class-name:hover {
-  box-shadow: 0 0 0 5px rgba(var(--color), .5);
 }
 
 .btn-class-name span {
@@ -196,4 +214,7 @@ h2 {
 .btn-class-name:active {
   transition: 0s;
   box-shadow: 0 0 0 5px rgb(var(--color));
+}
+.icon {
+  margin-right: 10px;
 }
