@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 h2 {
@@ -42,7 +43,7 @@ h2 {
 }
 
 .btn1 {
-  padding: 10px;
+  padding: 5px;
   margin-top: 200px;
   width: 300px;
   border: 2px solid #ffffff;
@@ -60,7 +61,7 @@ h2 {
 }
 
 .btn2 {
-  padding: 10px;
+  padding: 5px;
   margin-top: 20px;
   width: 300px;
   border: 2px solid #ffffff;
@@ -131,7 +132,7 @@ h2 {
 
   .btn1,
   .btn2 {
-    min-width: 350px;
+    min-width: 390px;
   }
 }
 
