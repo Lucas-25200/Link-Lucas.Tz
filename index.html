@@ -12,6 +12,37 @@
 <body>
     <div class="conteneur">
         <div class="boite" id="objet00">
+            <p><a href="https://lucas-25200.github.io/Link-Lucas.Tz/" id="myLink"></a></p>
+            <!-- Le bouton pour copier le lien -->
+            <a onclick="copyToClipboard()"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="partage"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                </svg></a>
+            <script>
+                function copyToClipboard() {
+                    // Sélectionnez le lien
+                    var link = document.getElementById("myLink");
+
+                    // Créez un élément de texte temporaire
+                    var tempInput = document.createElement("input");
+                    tempInput.value = link.href;
+
+                    // Ajoutez l'élément temporaire à la page
+                    document.body.appendChild(tempInput);
+
+                    // Sélectionnez le texte dans l'élément temporaire
+                    tempInput.select();
+                    tempInput.setSelectionRange(0, 99999); /* Pour les appareils mobiles */
+
+                    // Copiez le texte dans le presse-papiers
+                    document.execCommand("copy");
+
+                    // Supprimez l'élément temporaire
+                    document.body.removeChild(tempInput);
+
+                }
+            </script>
             <a class="btn" href="index.html"></a>
             <h2>Lucas.Tz</h2>
             <div class="conteneur2">
