@@ -145,27 +145,28 @@ h2 {
 
 /*-Responsive Boite-*/
 @media (min-width: 400px) {
-  .boite{
-      min-height: 961px;
-    }
+  .boite {
+    min-height: 961px;
   }
+}
+
 @media (min-width: 500px) {
-.boite{
+  .boite {
     min-height: 961px;
   }
 }
 
 @media (min-width: 600px) {
-.boite{
+  .boite {
     min-height: 969px;
   }
 }
 
 @media (min-width: 700px) {
-  .boite{
-      min-height: 961px;
-    }
+  .boite {
+    min-height: 961px;
   }
+}
 
 .btn-class-name {
   --color: 255, 255, 255;
@@ -215,6 +216,7 @@ h2 {
   transition: 0s;
   box-shadow: 0 0 0 5px rgb(var(--color));
 }
+
 .icon {
   margin-right: 10px;
 }
