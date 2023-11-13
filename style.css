@@ -101,21 +101,7 @@ h2 {
   width: auto;
   overflow: auto;
 }
-.partage {
-  height: 20px;
-  width: 20px;
-  border-radius: 30%;
-  padding: 10px;
-  display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  right: 20px;
-  top: 20px;
-  cursor: pointer;
-  background: rgba(202, 202, 202, 0.49)
-}
+
 /*-Responsive bouton-*/
 @media (min-width: 400px) {
   .btn {
@@ -233,4 +219,49 @@ h2 {
 
 .icon {
   margin-right: 10px;
+}
+
+.partage {
+  height: 20px;
+  width: 20px;
+  border-radius: 30%;
+  padding: 10px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background: rgba(202, 202, 202, 0.49)
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  margin-top: 100px;
+  position: absolute;
+  background-color: rgb(0, 36, 76);
+  border-radius: 10%;
+  min-width: 160px;
+  box-shadow: 0px 1px 16px 1px rgb(255, 255, 255);
+  padding: 12px;
+  z-index: 1;
+}
+
+.menu-content a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-content a:hover {
+  background-color: rgb(3, 62, 119);
+  border-radius: 10px;
 }
