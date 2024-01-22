@@ -5,7 +5,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-image: url(Image/Fond-Gost-Recon.jpg);
+  background-image: url(Image/1271728.jpg);
   background-color: rgb(20, 20, 20);
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@ h4 {
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  background-image: url(Image/ironman-icon2.jpg);
+  background-image: url(Image/1275722.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,13 +160,6 @@ h4 {
   }
 }
 
-/*-Menu de Partage-*/
-@media (min-width: 600px) {
-  .menu-content {
-    min-width: 400px;
-  }
-}
-
 .btn-class-name {
   --color: 255, 255, 255;
   border-radius: .5em;
@@ -245,25 +238,23 @@ h4 {
   font-family: math;
   font-weight: bold;
   cursor: pointer;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(23, 7, 44);
 }
-
 .menu {
   position: relative;
   display: inline-block;
 }
 
 .menu-content {
-  display: none;
-  margin-left: auto;
-  margin-top: auto;
+  display:block;
   position: absolute;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(23, 7, 44);
   border-radius: 20px;
-  width: auto;
+  width: 330px;
   box-shadow: 0px 1px 16px 1px rgb(255, 255, 255);
-  padding: 12px;
-  z-index: 1;
+  padding: 10px;
+  left: -97px;
+  bottom: -430px;
 }
 
 .menu-content a {
