@@ -5,7 +5,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-image: url(Image/33e858dd24fbef7eaf36c6a639f3708a.png);
+  background-image: url(Image/Fond.jpg);
   background-color: rgb(20, 20, 20);
   background-size: cover;
   background-position: center;
@@ -14,26 +14,26 @@ body {
 }
 
 a {
-  font-family: math;
+  font-family: Rubik;
   font-weight: bold;
 }
 
 p {
   color: white;
-  font-family: math;
+  font-family: Rubik;
   font-weight: bold;
 }
 
 h2 {
   color: rgb(255, 255, 255);
   font-size: xx-large;
-  font-family: math;
+  font-family: Rubik;
   font-weight: bold;
 }
 
 h4 {
   color: white;
-  font-family: math;
+  font-family: Rubik;
   font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ h4 {
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  background-image: url(Image/1275722.jpg);
+  background-image: url(Image/Logo.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,9 +65,7 @@ h4 {
   width: 300px;
   border: 2px solid #ffffff;
   color: white;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: x-large;
+  font-family: rubik;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -83,9 +81,7 @@ h4 {
   width: 300px;
   border: 2px solid #ffffff;
   color: white;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: x-large;
+  font-family: rubik;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -119,46 +115,6 @@ h4 {
   overflow: auto;
 }
 
-/*-Responsive bouton-*/
-@media (min-width: 400px) {
-  .btn {
-    min-width: 150px;
-    min-height: 150px;
-  }
-}
-
-@media (min-width: 600px) {
-  .btn {
-    min-width: 200px;
-    min-height: 200px;
-  }
-}
-
-/*-Responsive bouton 1 & 2-*/
-@media (min-width: 400px) {
-
-  .btn1,
-  .btn2 {
-    min-width: 300px;
-
-  }
-}
-
-@media (min-width: 500px) {
-
-  .btn1,
-  .btn2 {
-    min-width: 390px;
-  }
-}
-
-@media (min-width: 600px) {
-
-  .btn1,
-  .btn2 {
-    min-width: 500px;
-  }
-}
 
 .btn-class-name {
   --color: 255, 255, 255;
@@ -167,9 +123,9 @@ h4 {
   background-color: rgba(var(--color), .2);
   color: rgb(var(--color));
   fill: rgb(var(--color));
-  font-family: monospace;
+  font-family: Rubik;
   font-weight: bolder;
-  font-size: x-large;
+
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;
@@ -235,10 +191,11 @@ h4 {
   border-color: white;
   color: white;
   font-size: small;
-  font-family: math;
+  font-family:Rubik;
   font-weight: bold;
   cursor: pointer;
-  background-color: rgb(23, 7, 44);
+  background-color: rgb(58,38,83);
+  width: 250;
 }
 .menu {
   position: relative;
@@ -246,14 +203,14 @@ h4 {
 }
 
 .menu-content {
-  display: inline-block;
+  display: none;
   position: absolute;
-  background-color: rgb(23, 7, 44);
+  background-color: rgb(58,38,83);
   border-radius: 20px;
   width: 330px;
   box-shadow: 0px 1px 16px 1px rgb(255, 255, 255);
   padding: 10px;
-  left: -74px;
+  left: -97px;
   bottom: -430px;
 }
 
@@ -265,7 +222,7 @@ h4 {
 }
 
 .menu-content a:hover {
-  background-color: rgb(3, 62, 119);
+  background-color: rgb(58,38,83);
   border-radius: 10px;
 }
 
